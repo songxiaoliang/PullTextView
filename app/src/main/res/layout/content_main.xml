@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.song.test.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <com.song.test.PullTextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_orange_dark"
+        app:initLines= "1"
+        app:animationTime="1500"
+        android:text="
+烙韭菜饼的做法图解1
+
+1. 和面
+烙韭菜饼的做法图解2
+
+2. 饧面的时候炒鸡蛋，多放点油，炒好弄成小颗粒
+烙韭菜饼的做法图解3
+
+3. 切韭菜，切葱花，和鸡蛋放一起，用油，大料面，盐拌匀，注意，盐要擀好面皮再发，因为会把韭菜淹出水。
+烙韭菜饼的做法图解4
+
+4. 擀面皮，要先擀出两张，期中一张铺馅，另一张盖在铺好韭菜馅的饼上面，把周圈粘上摁结实，此处少一图，不知道能不能理解，另外，要把面皮放在可移动的家伙什上再做这些哦，否则你怎么把软塌塌的饼放进电饼铛呢？电饼铛多放点油，这样饼不会太硬，然后就可以烙了，烙饼的同时，准备下一个。
+烙韭菜饼的做法图解5
+
+5. 成品成品，很不错吧，可是家里光线很暗，拍出来好丑的。
+烙韭菜饼的做法图解6
+
+6. 开吃喽，超美味～
+"
+        />
+</RelativeLayout>
